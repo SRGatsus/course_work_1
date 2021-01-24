@@ -58,7 +58,7 @@ function Teachers() {
 
                 <div className="mentors container" id="mentors">
                     <div className="row flex-block flex-wrap">
-                        {isLoaded?
+                        {(isLoaded&&itemsTeachers)?
           itemsTeachers.map((name, index) => (
             <OneTeachers 
                 itemIndex={index}      
