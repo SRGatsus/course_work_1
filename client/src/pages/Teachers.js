@@ -10,7 +10,6 @@ function Teachers() {
     const {loading, request} = useHttp()
     const itemsTeachers = useSelector(({teachers }) => teachers.items);
     const isLoaded = useSelector(({ teachers  }) => teachers .isLoaded);
- console.log(itemsTeachers)
     React.useEffect(() => {
         dispatch(fetchTeachers())
      registerHandler().then((data) => {
@@ -69,7 +68,7 @@ function Teachers() {
             />
           )):
           "ff"
-          }
+          } 
                     </div>
                 </div>
 

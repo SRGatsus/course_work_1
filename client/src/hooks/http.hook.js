@@ -1,4 +1,7 @@
-import {useState, useCallback} from 'react'
+import {
+  useState,
+  useCallback
+} from 'react'
 
 export const useHttp = () => {
   const [loading, setLoading] = useState(false)
@@ -11,8 +14,11 @@ export const useHttp = () => {
         body = JSON.stringify(body)
         headers['Content-Type'] = 'application/json;charset=utf-8'
       }
-      console.log('я сделал ')
-      const response = await fetch(url, {method, body, headers})
+      const response = await fetch(url, {
+        method,
+        body,
+        headers
+      })
       const data = await response.json()
       if (!response.ok) {
         throw new Error(data.message || 'Что-то пошло не так')
@@ -29,5 +35,10 @@ export const useHttp = () => {
 
   const clearError = useCallback(() => setError(null), [])
 
-  return { loading, request, error, clearError }
+  return {
+    loading,
+    request,
+    error,
+    clearError
+  }
 }
