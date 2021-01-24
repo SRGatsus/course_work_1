@@ -67,7 +67,7 @@ function Teachers() {
                 OneClickInfoToCourse={ClickInfoToCourse}           
             />
           )):
-          "ff"
+          "Ой ошибка на сервере"
           } 
                     </div>
                 </div>
