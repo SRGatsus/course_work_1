@@ -18,6 +18,7 @@ app.use('/api/get', require('./routes/componets.routes'))
 
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+  })
 
 
 const PORT = config.get('port') || process.env.PORT;
