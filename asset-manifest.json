@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/course_work_1/static/css/main.ae9289f4.chunk.css",
+    "main.js": "/course_work_1/static/js/main.2ef60e13.chunk.js",
+    "main.js.map": "/course_work_1/static/js/main.2ef60e13.chunk.js.map",
+    "runtime-main.js": "/course_work_1/static/js/runtime-main.c7b2eda3.js",
+    "runtime-main.js.map": "/course_work_1/static/js/runtime-main.c7b2eda3.js.map",
+    "static/js/2.c1ac8275.chunk.js": "/course_work_1/static/js/2.c1ac8275.chunk.js",
+    "static/js/2.c1ac8275.chunk.js.map": "/course_work_1/static/js/2.c1ac8275.chunk.js.map",
+    "index.html": "/course_work_1/index.html",
+    "static/css/main.ae9289f4.chunk.css.map": "/course_work_1/static/css/main.ae9289f4.chunk.css.map",
+    "static/js/2.c1ac8275.chunk.js.LICENSE.txt": "/course_work_1/static/js/2.c1ac8275.chunk.js.LICENSE.txt",
+    "static/media/Logo1.8a2dd66e.png": "/course_work_1/static/media/Logo1.8a2dd66e.png",
+    "static/media/index.css": "/course_work_1/static/media/top_teachers.fdda2632.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c7b2eda3.js",
+    "static/js/2.c1ac8275.chunk.js",
+    "static/css/main.ae9289f4.chunk.css",
+    "static/js/main.2ef60e13.chunk.js"
+  ]
+}
