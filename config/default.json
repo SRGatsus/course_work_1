@@ -1,6 +1,6 @@
 {
-    "port":3100,
-    "jwtSecret": "vladilen youtube mern",
-    "mongoUri":"mongodb+srv://Gatsus:5Ws-qCw-nEr-fmk@coursework.p42qs.mongodb.net/test3?retryWrites=true&w=majority",
-    "baseUrl": "http://localhost:5000"
+    "port":****,
+    "jwtSecret": "***",
+    "mongoUri":"****",
+    "baseUrl": "****"
 }
